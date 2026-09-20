@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --color-bl: #000000;       
+  --color-la: #8390FA; 
+  --color-y: #FAC748;
+  --color-w: #F9E9EC;
+  --color-p: #F88DAD;
+}
+
+img,div,button ::before, ::after {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms; /* Adjust speed (e.g., 200ms or 300ms) */
+}
